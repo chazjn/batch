@@ -46,7 +46,7 @@ For /L %%h IN (1, 1, %maxheight%) DO (
 )
 
 echo Width=%width% height=%height% 
-echo maze /? for more options
+echo bt_maze /? for more options
 GOTO EOF
 
 :HELP
@@ -54,7 +54,7 @@ echo [Binary Tree Algorithm Maze Creator] @chazjn 26/06/2014. ver 1.0.
 echo Based on code here: http://weblog.jamisbuck.org/2011/2/7/maze-generation-algorithm-recap
 echo/
 echo Options:
-echo maze [width] [height] [pauseTime]
+echo bt_maze [width] [height] [pauseTime]
 echo If no height specified, value of width will be used
 echo pauseTime set the time in seconds to pause between drawing rows
 echo/
