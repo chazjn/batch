@@ -35,9 +35,9 @@ For /L %%h IN (1, 1, %maxheight%) DO (
 			IF DEFINED west IF NOT DEFINED north (SET go=2)
 			IF DEFINED north IF DEFINED west (SET /a go=!random! %% 2 + 1)
 			
-			IF !go!==0 (SET go=^|~)
-			IF !go!==1 (SET go=^| )
-			IF !go!==2 (SET go=~~)
+			IF !go!==0 (SET go=Ёо)
+			IF !go!==1 (SET go=Ё )
+			IF !go!==2 (SET go=оо)
 			
 			SET MAZE=!MAZE!!go!
 		)
