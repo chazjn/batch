@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		bt_maze.bat = bt_maze.bat
 		rt_maze.bat = rt_maze.bat
+		rt_maze_test.bat = rt_maze_test.bat
+		test.bat = test.bat
 	EndProjectSection
 EndProject
 Global
